@@ -9,6 +9,9 @@ public class dialog {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         
+        JLabel label = new JLabel("Olá!", SwingConstants.CENTER);
+        dialog.add(label);
+        
         dialog.setLocationRelativeTo(frame);
         dialog.setSize(250, 250);
         dialog.setVisible(true);
